@@ -18,7 +18,7 @@ import { useUserAuth } from '../../hooks/UseUserAuth';
 
 
 const Income = () => {
-  useUserAuth()
+  UseUserAuth()
   const [incomeData, setIncomeData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [openDeleteAlert, setOpenDeleteAlert] = useState({
