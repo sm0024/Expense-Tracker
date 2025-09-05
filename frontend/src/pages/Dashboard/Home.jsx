@@ -20,7 +20,7 @@ import RecentIncomeWithChart from './RecentIncomeWithChart';
 import RecentIncome from '../../components/Dashboard/RecentIncome';
 
 const Home = () => {
-  useUserAuth();
+  UseUserAuth();
   const navigate = useNavigate();
   const [dashboardData, setDashboardData] = useState(null);
   const [loading, setLoading] = useState(false);
