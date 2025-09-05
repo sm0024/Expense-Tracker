@@ -1,5 +1,5 @@
 import React, { createElement, useEffect, useState } from 'react'
-import { useUserAuth } from '../../hooks/useUserAuth';
+import { useUserAuth } from '../../hooks/UseUserAuth';
 import DashboardLayout from '../../components/layouts/DashboardLayout';
 import toast from 'react-hot-toast';
 import { API_PATHS } from '../../utils/apiPaths';
