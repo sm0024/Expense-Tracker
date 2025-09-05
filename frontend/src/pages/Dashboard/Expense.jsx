@@ -11,7 +11,7 @@ import ExpenseList from '../../components/Expense/ExpenseList';
 import DeleteAlert from '../../components/DeleteAlert';
 
 const Expense = () => {
-  useUserAuth();
+  UseUserAuth();
   const [expenseData, setExpenseData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [openDeleteAlert, setOpenDeleteAlert] = useState({
