@@ -3,7 +3,7 @@
 
 import React, { useEffect, useState } from 'react'
 import DashboardLayout from '../../components/layouts/DashboardLayout'
-import { useUserAuth } from '../../hooks/useUserAuth'
+import { useUserAuth } from '../../hooks/UseUserAuth'
 import { useNavigate } from 'react-router-dom';
 import axiosInstance from '../../utils/axiosInstance';
 import { API_PATHS } from '../../utils/apiPaths';
